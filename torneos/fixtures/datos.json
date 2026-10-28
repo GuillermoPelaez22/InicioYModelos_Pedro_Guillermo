@@ -1,0 +1,1286 @@
+[
+{
+    "model": "torneos.deporte",
+    "pk": 1,
+    "fields": {
+        "nombre": "Fútbol",
+        "descripcion": "A ningún vuelve río respuesta hora cantidad.",
+        "por_equipos": true,
+        "jugadores_por_equipo": 7
+    }
+},
+{
+    "model": "torneos.deporte",
+    "pk": 2,
+    "fields": {
+        "nombre": "Baloncesto",
+        "descripcion": "Tenido b muchos sus donde campaña. R trabajo elementos.",
+        "por_equipos": true,
+        "jugadores_por_equipo": 11
+    }
+},
+{
+    "model": "torneos.deporte",
+    "pk": 3,
+    "fields": {
+        "nombre": "Pádel",
+        "descripcion": "Me media mismo barcelona no cultura. Jefe entrada carlos estructura.",
+        "por_equipos": false,
+        "jugadores_por_equipo": 1
+    }
+},
+{
+    "model": "torneos.deporte",
+    "pk": 4,
+    "fields": {
+        "nombre": "Tenis",
+        "descripcion": "País hora buena embargo esas allá josé.",
+        "por_equipos": true,
+        "jugadores_por_equipo": 11
+    }
+},
+{
+    "model": "torneos.deporte",
+    "pk": 5,
+    "fields": {
+        "nombre": "Voleibol",
+        "descripcion": "Toma cosa comunidad.",
+        "por_equipos": false,
+        "jugadores_por_equipo": 9
+    }
+},
+{
+    "model": "torneos.deporte",
+    "pk": 6,
+    "fields": {
+        "nombre": "Balonmano",
+        "descripcion": "Medio especial produce esta.",
+        "por_equipos": true,
+        "jugadores_por_equipo": 6
+    }
+},
+{
+    "model": "torneos.deporte",
+    "pk": 7,
+    "fields": {
+        "nombre": "Rugby",
+        "descripcion": "Recursos mayoría norte para pueden. Grupo esfuerzo necesario jorge esos otra.",
+        "por_equipos": true,
+        "jugadores_por_equipo": 7
+    }
+},
+{
+    "model": "torneos.deporte",
+    "pk": 8,
+    "fields": {
+        "nombre": "Hockey",
+        "descripcion": "Todo padres lo. Dirección barcelona única partidos luz pasa nos.",
+        "por_equipos": true,
+        "jugadores_por_equipo": 7
+    }
+},
+{
+    "model": "torneos.deporte",
+    "pk": 9,
+    "fields": {
+        "nombre": "Bádminton",
+        "descripcion": "Derecho estaba animales elementos haya septiembre comisión.",
+        "por_equipos": true,
+        "jugadores_por_equipo": 2
+    }
+},
+{
+    "model": "torneos.deporte",
+    "pk": 10,
+    "fields": {
+        "nombre": "Tenis de mesa",
+        "descripcion": "Será acto buscar embargo ser destino prensa sur. Necesario horas mantener tales.",
+        "por_equipos": true,
+        "jugadores_por_equipo": 10
+    }
+},
+{
+    "model": "torneos.ubicacion",
+    "pk": 1,
+    "fields": {
+        "nombre": "Pabellón Escrivá",
+        "direccion": "Via Victoriano Echevarría 60 Piso 0 , Palencia, 39880",
+        "capacidad": 1144,
+        "latitud": 30.8042485,
+        "deportes": [
+            2
+        ]
+    }
+},
+{
+    "model": "torneos.ubicacion",
+    "pk": 2,
+    "fields": {
+        "nombre": "Pabellón Buendía",
+        "direccion": "Vial Cecilia Ros 765 Piso 3 , Granada, 40974",
+        "capacidad": 1726,
+        "latitud": -75.816723,
+        "deportes": [
+            2,
+            6,
+            8
+        ]
+    }
+},
+{
+    "model": "torneos.ubicacion",
+    "pk": 3,
+    "fields": {
+        "nombre": "Pabellón Leal",
+        "direccion": "Pasaje Raquel Castejón 84, Soria, 40805",
+        "capacidad": 804,
+        "latitud": 25.330347,
+        "deportes": [
+            2
+        ]
+    }
+},
+{
+    "model": "torneos.ubicacion",
+    "pk": 4,
+    "fields": {
+        "nombre": "Pabellón Hoyos",
+        "direccion": "C. de Jonatan Almeida 828, Palencia, 22469",
+        "capacidad": 1015,
+        "latitud": -35.0943915,
+        "deportes": [
+            2,
+            5,
+            7
+        ]
+    }
+},
+{
+    "model": "torneos.ubicacion",
+    "pk": 5,
+    "fields": {
+        "nombre": "Pabellón Perales",
+        "direccion": "Urbanización Olegario Arribas 31 Piso 2 , Granada, 43625",
+        "capacidad": 1510,
+        "latitud": -24.51623,
+        "deportes": [
+            4
+        ]
+    }
+},
+{
+    "model": "torneos.ubicacion",
+    "pk": 6,
+    "fields": {
+        "nombre": "Pabellón Andrés",
+        "direccion": "Cuesta Lope Quesada 2, Sevilla, 21737",
+        "capacidad": 796,
+        "latitud": 73.6104785,
+        "deportes": [
+            9,
+            10
+        ]
+    }
+},
+{
+    "model": "torneos.ubicacion",
+    "pk": 7,
+    "fields": {
+        "nombre": "Pabellón Gámez",
+        "direccion": "Rambla de Montserrat Galván 16, Cantabria, 25329",
+        "capacidad": 168,
+        "latitud": 29.665377,
+        "deportes": [
+            4,
+            9
+        ]
+    }
+},
+{
+    "model": "torneos.ubicacion",
+    "pk": 8,
+    "fields": {
+        "nombre": "Pabellón Gonzalo",
+        "direccion": "Rambla Isaías Roura 57 Apt. 19 , Guadalajara, 11193",
+        "capacidad": 1037,
+        "latitud": 2.2423185,
+        "deportes": [
+            1,
+            9
+        ]
+    }
+},
+{
+    "model": "torneos.ubicacion",
+    "pk": 9,
+    "fields": {
+        "nombre": "Pabellón Salom",
+        "direccion": "Cuesta de Elba Bastida 8 Puerta 9 , Guipúzcoa, 12624",
+        "capacidad": 92,
+        "latitud": 46.2098325,
+        "deportes": [
+            10
+        ]
+    }
+},
+{
+    "model": "torneos.ubicacion",
+    "pk": 10,
+    "fields": {
+        "nombre": "Pabellón Ferrández",
+        "direccion": "Acceso de Delia Torralba 91 Apt. 41 , Álava, 23921",
+        "capacidad": 69,
+        "latitud": 58.391493,
+        "deportes": [
+            6
+        ]
+    }
+},
+{
+    "model": "torneos.usuario",
+    "pk": 1,
+    "fields": {
+        "nombre": "Miguel Ángel Heraclio Espejo Alvarez",
+        "email": "tperez@example.net",
+        "fecha_nacimiento": "2008-10-20",
+        "fecha_registro": "2026-10-28T11:02:22.241",
+        "activo": true
+    }
+},
+{
+    "model": "torneos.usuario",
+    "pk": 2,
+    "fields": {
+        "nombre": "Dionisia Puga Lumbreras",
+        "email": "edavila@example.org",
+        "fecha_nacimiento": "1981-02-08",
+        "fecha_registro": "2026-10-28T11:02:22.248",
+        "activo": true
+    }
+},
+{
+    "model": "torneos.usuario",
+    "pk": 3,
+    "fields": {
+        "nombre": "Edgardo Rozas",
+        "email": "eugenia73@example.net",
+        "fecha_nacimiento": "2007-02-16",
+        "fecha_registro": "2026-10-28T11:02:22.257",
+        "activo": true
+    }
+},
+{
+    "model": "torneos.usuario",
+    "pk": 4,
+    "fields": {
+        "nombre": "Luis Ángel Laguna",
+        "email": "ciprianoexposito@example.org",
+        "fecha_nacimiento": "1988-02-02",
+        "fecha_registro": "2026-10-28T11:02:22.263",
+        "activo": true
+    }
+},
+{
+    "model": "torneos.usuario",
+    "pk": 5,
+    "fields": {
+        "nombre": "José Ángel León Guardiola Múgica",
+        "email": "amanciocornejo@example.com",
+        "fecha_nacimiento": "1970-08-09",
+        "fecha_registro": "2026-10-28T11:02:22.270",
+        "activo": false
+    }
+},
+{
+    "model": "torneos.usuario",
+    "pk": 6,
+    "fields": {
+        "nombre": "Leocadio Morera-Arco",
+        "email": "loboramon@example.com",
+        "fecha_nacimiento": "1973-04-03",
+        "fecha_registro": "2026-10-28T11:02:22.276",
+        "activo": true
+    }
+},
+{
+    "model": "torneos.usuario",
+    "pk": 7,
+    "fields": {
+        "nombre": "Corona Alonso Castrillo",
+        "email": "rhigueras@example.com",
+        "fecha_nacimiento": "1992-07-02",
+        "fecha_registro": "2026-10-28T11:02:22.282",
+        "activo": true
+    }
+},
+{
+    "model": "torneos.usuario",
+    "pk": 8,
+    "fields": {
+        "nombre": "Noemí Sabater Oliver",
+        "email": "adalbertoalonso@example.org",
+        "fecha_nacimiento": "1995-09-08",
+        "fecha_registro": "2026-10-28T11:02:22.288",
+        "activo": true
+    }
+},
+{
+    "model": "torneos.usuario",
+    "pk": 9,
+    "fields": {
+        "nombre": "Adalberto Graciano Laguna Gonzalez",
+        "email": "manzanodorotea@example.org",
+        "fecha_nacimiento": "1968-02-25",
+        "fecha_registro": "2026-10-28T11:02:22.294",
+        "activo": true
+    }
+},
+{
+    "model": "torneos.usuario",
+    "pk": 10,
+    "fields": {
+        "nombre": "Elpidio Valenzuela Gomez",
+        "email": "heracliomena@example.net",
+        "fecha_nacimiento": "1976-04-22",
+        "fecha_registro": "2026-10-28T11:02:22.300",
+        "activo": true
+    }
+},
+{
+    "model": "torneos.perfilusuario",
+    "pk": 1,
+    "fields": {
+        "usuario": 1,
+        "telefono": "618595240",
+        "biografia": "Ese qué hace río existen oficial. Campaña atrás especie yo seis o menor.",
+        "nivel": "competitivo",
+        "valoracion": 3.9
+    }
+},
+{
+    "model": "torneos.perfilusuario",
+    "pk": 2,
+    "fields": {
+        "usuario": 2,
+        "telefono": "687028918",
+        "biografia": "Explicó en expresión será. Menor ha cuenta mar industria.",
+        "nivel": "aficionado",
+        "valoracion": 1.0
+    }
+},
+{
+    "model": "torneos.perfilusuario",
+    "pk": 3,
+    "fields": {
+        "usuario": 3,
+        "telefono": "607338802",
+        "biografia": "Que cámara pesar defensa haya maría. Luis distintos contra diario cuatro propios.",
+        "nivel": "competitivo",
+        "valoracion": 1.3
+    }
+},
+{
+    "model": "torneos.perfilusuario",
+    "pk": 4,
+    "fields": {
+        "usuario": 4,
+        "telefono": "610786799",
+        "biografia": "Función domingo entrar dicen visita atención.",
+        "nivel": "intermedio",
+        "valoracion": 3.2
+    }
+},
+{
+    "model": "torneos.perfilusuario",
+    "pk": 5,
+    "fields": {
+        "usuario": 5,
+        "telefono": "661181841",
+        "biografia": "Estilo campaña nunca plan.",
+        "nivel": "competitivo",
+        "valoracion": 3.0
+    }
+},
+{
+    "model": "torneos.perfilusuario",
+    "pk": 6,
+    "fields": {
+        "usuario": 6,
+        "telefono": "662569697",
+        "biografia": "Ministerio ellos buen fuego. Casos dio electoral aquellos u película era.",
+        "nivel": "competitivo",
+        "valoracion": 4.4
+    }
+},
+{
+    "model": "torneos.perfilusuario",
+    "pk": 7,
+    "fields": {
+        "usuario": 7,
+        "telefono": "670845849",
+        "biografia": "Lugar precisamente el quería lugar cualquier violencia. Camino manera nos viene ser.",
+        "nivel": "intermedio",
+        "valoracion": 1.1
+    }
+},
+{
+    "model": "torneos.perfilusuario",
+    "pk": 8,
+    "fields": {
+        "usuario": 8,
+        "telefono": "658410799",
+        "biografia": "Barcelona allá carlos. Cuya maría general productos con solución ex.",
+        "nivel": "intermedio",
+        "valoracion": 4.9
+    }
+},
+{
+    "model": "torneos.perfilusuario",
+    "pk": 9,
+    "fields": {
+        "usuario": 9,
+        "telefono": "673903245",
+        "biografia": "Piel les interés. Pueda amigos solución carlos necesidad recursos hospital.",
+        "nivel": "aficionado",
+        "valoracion": 3.3
+    }
+},
+{
+    "model": "torneos.perfilusuario",
+    "pk": 10,
+    "fields": {
+        "usuario": 10,
+        "telefono": "674560489",
+        "biografia": "Población hablar sangre fondo es tomar francia.",
+        "nivel": "aficionado",
+        "valoracion": 3.2
+    }
+},
+{
+    "model": "torneos.equipo",
+    "pk": 1,
+    "fields": {
+        "nombre": "Cádiz United",
+        "fecha_creacion": "2022-12-29",
+        "color": "Azul lona",
+        "activo": true,
+        "capitan": 4,
+        "miembros": [
+            1,
+            3,
+            6
+        ]
+    }
+},
+{
+    "model": "torneos.equipo",
+    "pk": 2,
+    "fields": {
+        "nombre": "Burgos FC",
+        "fecha_creacion": "2023-09-01",
+        "color": "Verde mar claro",
+        "activo": true,
+        "capitan": 3,
+        "miembros": [
+            1,
+            6,
+            8,
+            10
+        ]
+    }
+},
+{
+    "model": "torneos.equipo",
+    "pk": 3,
+    "fields": {
+        "nombre": "Guipúzcoa United",
+        "fecha_creacion": "2023-03-06",
+        "color": "Azul real",
+        "activo": true,
+        "capitan": 1,
+        "miembros": [
+            1,
+            2,
+            3,
+            6,
+            7,
+            8
+        ]
+    }
+},
+{
+    "model": "torneos.equipo",
+    "pk": 4,
+    "fields": {
+        "nombre": "Navarra Club",
+        "fecha_creacion": "2026-09-10",
+        "color": "Beige antiguo",
+        "activo": false,
+        "capitan": 3,
+        "miembros": [
+            1,
+            2,
+            4,
+            6,
+            9
+        ]
+    }
+},
+{
+    "model": "torneos.equipo",
+    "pk": 5,
+    "fields": {
+        "nombre": "Ávila FC",
+        "fecha_creacion": "2025-03-04",
+        "color": "Verde mar oscuro",
+        "activo": true,
+        "capitan": 6,
+        "miembros": [
+            2,
+            3,
+            7
+        ]
+    }
+},
+{
+    "model": "torneos.equipo",
+    "pk": 6,
+    "fields": {
+        "nombre": "Navarra FC",
+        "fecha_creacion": "2022-05-05",
+        "color": "Granate",
+        "activo": true,
+        "capitan": 1,
+        "miembros": [
+            4,
+            5,
+            7,
+            10
+        ]
+    }
+},
+{
+    "model": "torneos.equipo",
+    "pk": 7,
+    "fields": {
+        "nombre": "Córdoba FC",
+        "fecha_creacion": "2023-11-25",
+        "color": "Gris pizarra claro",
+        "activo": true,
+        "capitan": 3,
+        "miembros": [
+            3,
+            4,
+            6,
+            7,
+            9,
+            10
+        ]
+    }
+},
+{
+    "model": "torneos.equipo",
+    "pk": 8,
+    "fields": {
+        "nombre": "Madrid Club",
+        "fecha_creacion": "2023-10-31",
+        "color": "Verde oscuro",
+        "activo": false,
+        "capitan": 2,
+        "miembros": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            10
+        ]
+    }
+},
+{
+    "model": "torneos.equipo",
+    "pk": 9,
+    "fields": {
+        "nombre": "Alicante Club",
+        "fecha_creacion": "2022-06-17",
+        "color": "Gris oscuro",
+        "activo": false,
+        "capitan": 6,
+        "miembros": [
+            3,
+            5,
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "torneos.equipo",
+    "pk": 10,
+    "fields": {
+        "nombre": "Ourense Club",
+        "fecha_creacion": "2025-02-23",
+        "color": "Gris mate",
+        "activo": false,
+        "capitan": 8,
+        "miembros": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7
+        ]
+    }
+},
+{
+    "model": "torneos.torneo",
+    "pk": 1,
+    "fields": {
+        "nombre": "Copa Murcia",
+        "descripcion": "Palabras pequeño quienes rosa busca yo otros. Análisis carrera noche siguientes través quedó miguel. Realizar respecto uno éste siglo c intereses.",
+        "formato": "eliminatoria",
+        "fecha_inicio": "2027-03-13",
+        "hora_partidos": "03:43:44.797",
+        "max_participantes": 16,
+        "es_publico": false,
+        "codigo_invitacion": "JA5726",
+        "cuota_inscripcion": "14.00",
+        "deporte": 5,
+        "organizador": 5,
+        "sede": 5
+    }
+},
+{
+    "model": "torneos.torneo",
+    "pk": 2,
+    "fields": {
+        "nombre": "Copa Alicante",
+        "descripcion": "Estuvo formas hacia acerca esos serie justicia. Instituto familia llamado defensa cuales hacen militares.",
+        "formato": "eliminatoria",
+        "fecha_inicio": "2027-01-02",
+        "hora_partidos": "07:47:33.056",
+        "max_participantes": 16,
+        "es_publico": false,
+        "codigo_invitacion": "VH6835",
+        "cuota_inscripcion": "1.00",
+        "deporte": 3,
+        "organizador": 10,
+        "sede": 8
+    }
+},
+{
+    "model": "torneos.torneo",
+    "pk": 3,
+    "fields": {
+        "nombre": "Copa La Coruña",
+        "descripcion": "Salud puntos francia derecha juego productos. Oro vio serán partir casos función grado producción. Pesetas comunicación cuerpo resultados sector valores grande.",
+        "formato": "liga",
+        "fecha_inicio": "2027-04-08",
+        "hora_partidos": "17:06:03.028",
+        "max_participantes": 4,
+        "es_publico": true,
+        "codigo_invitacion": null,
+        "cuota_inscripcion": "11.00",
+        "deporte": 1,
+        "organizador": 7,
+        "sede": 5
+    }
+},
+{
+    "model": "torneos.torneo",
+    "pk": 4,
+    "fields": {
+        "nombre": "Copa Murcia",
+        "descripcion": "Nuevos industria posible. Conciencia cara millones práctica.",
+        "formato": "eliminatoria",
+        "fecha_inicio": "2026-12-30",
+        "hora_partidos": "16:04:03.254",
+        "max_participantes": 16,
+        "es_publico": false,
+        "codigo_invitacion": "TE9954",
+        "cuota_inscripcion": "19.00",
+        "deporte": 8,
+        "organizador": 1,
+        "sede": 4
+    }
+},
+{
+    "model": "torneos.torneo",
+    "pk": 5,
+    "fields": {
+        "nombre": "Copa Zaragoza",
+        "descripcion": "Zona políticos personal mil llama quiero puerto hacia. Además trata película éxito oficial.",
+        "formato": "liga",
+        "fecha_inicio": "2027-03-03",
+        "hora_partidos": "20:02:08.678",
+        "max_participantes": 16,
+        "es_publico": true,
+        "codigo_invitacion": null,
+        "cuota_inscripcion": "0.00",
+        "deporte": 5,
+        "organizador": 6,
+        "sede": 1
+    }
+},
+{
+    "model": "torneos.torneo",
+    "pk": 6,
+    "fields": {
+        "nombre": "Copa La Rioja",
+        "descripcion": "Español luis muy alguna efecto como viene. Además países carácter nuevos grado hacen.",
+        "formato": "liga",
+        "fecha_inicio": "2026-11-13",
+        "hora_partidos": "10:23:43.692",
+        "max_participantes": 16,
+        "es_publico": false,
+        "codigo_invitacion": "BW7609",
+        "cuota_inscripcion": "20.00",
+        "deporte": 7,
+        "organizador": 7,
+        "sede": 8
+    }
+},
+{
+    "model": "torneos.torneo",
+    "pk": 7,
+    "fields": {
+        "nombre": "Copa Teruel",
+        "descripcion": "Libre comunidad podría sistemas gobierno. Vuelve miedo comunicación quería iba problemas. Economía república razón miguel imágenes. Sólo comunicación ellas obra n ellos él.",
+        "formato": "eliminatoria",
+        "fecha_inicio": "2027-03-14",
+        "hora_partidos": "02:52:28.538",
+        "max_participantes": 4,
+        "es_publico": true,
+        "codigo_invitacion": null,
+        "cuota_inscripcion": "23.00",
+        "deporte": 2,
+        "organizador": 4,
+        "sede": 2
+    }
+},
+{
+    "model": "torneos.torneo",
+    "pk": 8,
+    "fields": {
+        "nombre": "Copa Toledo",
+        "descripcion": "Dolor propia base c aquellas haber cultura somos. Exterior existencia ojos jorge.",
+        "formato": "liga",
+        "fecha_inicio": "2026-11-27",
+        "hora_partidos": "19:56:31.916",
+        "max_participantes": 4,
+        "es_publico": false,
+        "codigo_invitacion": "HA7051",
+        "cuota_inscripcion": "23.00",
+        "deporte": 3,
+        "organizador": 8,
+        "sede": 6
+    }
+},
+{
+    "model": "torneos.torneo",
+    "pk": 9,
+    "fields": {
+        "nombre": "Copa Baleares",
+        "descripcion": "Imagen mayor ni siquiera área sociedad argentina piel. Debía precisamente servicios pone vuelta tú nombre.",
+        "formato": "eliminatoria",
+        "fecha_inicio": "2027-01-19",
+        "hora_partidos": "05:33:42.809",
+        "max_participantes": 8,
+        "es_publico": true,
+        "codigo_invitacion": null,
+        "cuota_inscripcion": "3.00",
+        "deporte": 2,
+        "organizador": 2,
+        "sede": 1
+    }
+},
+{
+    "model": "torneos.torneo",
+    "pk": 10,
+    "fields": {
+        "nombre": "Copa Ávila",
+        "descripcion": "Plaza difícil esos hora.",
+        "formato": "eliminatoria",
+        "fecha_inicio": "2026-12-13",
+        "hora_partidos": "08:06:25.776",
+        "max_participantes": 4,
+        "es_publico": true,
+        "codigo_invitacion": null,
+        "cuota_inscripcion": "15.00",
+        "deporte": 2,
+        "organizador": 4,
+        "sede": 1
+    }
+},
+{
+    "model": "torneos.reglastorneo",
+    "pk": 1,
+    "fields": {
+        "torneo": 1,
+        "puntos_victoria": 3,
+        "puntos_empate": 1,
+        "puntos_derrota": 0,
+        "normas": "Tierra ayer ministro capacidad apenas. Mayoría dicen público términos constitución hicieron social música. Juez tiene parecía dijo humana miedo. Negro personal centros universidad."
+    }
+},
+{
+    "model": "torneos.reglastorneo",
+    "pk": 2,
+    "fields": {
+        "torneo": 2,
+        "puntos_victoria": 2,
+        "puntos_empate": 1,
+        "puntos_derrota": 0,
+        "normas": "Media sur esfuerzo están palabras precisamente. Vio encontrar mucho aun diario. Nadie esos cómo francisco."
+    }
+},
+{
+    "model": "torneos.reglastorneo",
+    "pk": 3,
+    "fields": {
+        "torneo": 3,
+        "puntos_victoria": 2,
+        "puntos_empate": 1,
+        "puntos_derrota": 0,
+        "normas": "Programa ayer autor fiscal solo quiero amigos mal."
+    }
+},
+{
+    "model": "torneos.reglastorneo",
+    "pk": 4,
+    "fields": {
+        "torneo": 4,
+        "puntos_victoria": 3,
+        "puntos_empate": 1,
+        "puntos_derrota": 0,
+        "normas": "Sí quería ante diferencia porque niveles b. Resultados sus proyectos elecciones grupos ellas."
+    }
+},
+{
+    "model": "torneos.reglastorneo",
+    "pk": 5,
+    "fields": {
+        "torneo": 5,
+        "puntos_victoria": 2,
+        "puntos_empate": 1,
+        "puntos_derrota": 0,
+        "normas": "Equipo salida hechos países pregunta pasado siguientes. Fuentes efecto objeto torno."
+    }
+},
+{
+    "model": "torneos.reglastorneo",
+    "pk": 6,
+    "fields": {
+        "torneo": 6,
+        "puntos_victoria": 3,
+        "puntos_empate": 1,
+        "puntos_derrota": 0,
+        "normas": "Efectos tierra media acuerdo dirección media. Hombre mantener fácil realizar ayer b de."
+    }
+},
+{
+    "model": "torneos.reglastorneo",
+    "pk": 7,
+    "fields": {
+        "torneo": 7,
+        "puntos_victoria": 3,
+        "puntos_empate": 1,
+        "puntos_derrota": 0,
+        "normas": "Capacidad cinco centro. Salir mirada solución favor américa crecimiento."
+    }
+},
+{
+    "model": "torneos.reglastorneo",
+    "pk": 8,
+    "fields": {
+        "torneo": 8,
+        "puntos_victoria": 2,
+        "puntos_empate": 1,
+        "puntos_derrota": 0,
+        "normas": "Información derechos fin del. Río ver jefe partir conocimiento. Pablo hubo vamos época."
+    }
+},
+{
+    "model": "torneos.reglastorneo",
+    "pk": 9,
+    "fields": {
+        "torneo": 9,
+        "puntos_victoria": 3,
+        "puntos_empate": 1,
+        "puntos_derrota": 0,
+        "normas": "Tenido pedro ambos cuenta asociación. Mujeres instituto condiciones tengo. Material expresión trabajo constitución."
+    }
+},
+{
+    "model": "torneos.reglastorneo",
+    "pk": 10,
+    "fields": {
+        "torneo": 10,
+        "puntos_victoria": 3,
+        "puntos_empate": 1,
+        "puntos_derrota": 0,
+        "normas": "Creo encuentra políticos opinión."
+    }
+},
+{
+    "model": "torneos.inscripcion",
+    "pk": 1,
+    "fields": {
+        "torneo": 1,
+        "equipo": 4,
+        "fecha_inscripcion": "2026-10-28T11:02:22.661",
+        "estado": "aceptada",
+        "pagada": false,
+        "observaciones": "Minutos exterior torno pequeña."
+    }
+},
+{
+    "model": "torneos.inscripcion",
+    "pk": 2,
+    "fields": {
+        "torneo": 1,
+        "equipo": 10,
+        "fecha_inscripcion": "2026-10-28T11:02:22.670",
+        "estado": "aceptada",
+        "pagada": false,
+        "observaciones": "Voluntad g otro uno acciones."
+    }
+},
+{
+    "model": "torneos.inscripcion",
+    "pk": 3,
+    "fields": {
+        "torneo": 8,
+        "equipo": 10,
+        "fecha_inscripcion": "2026-10-28T11:02:22.700",
+        "estado": "aceptada",
+        "pagada": false,
+        "observaciones": "Grupo vista lado respuesta educación ella."
+    }
+},
+{
+    "model": "torneos.inscripcion",
+    "pk": 4,
+    "fields": {
+        "torneo": 8,
+        "equipo": 1,
+        "fecha_inscripcion": "2026-10-28T11:02:22.710",
+        "estado": "aceptada",
+        "pagada": true,
+        "observaciones": "Palabra marcha barcelona temas casa usted afirmó."
+    }
+},
+{
+    "model": "torneos.inscripcion",
+    "pk": 5,
+    "fields": {
+        "torneo": 10,
+        "equipo": 7,
+        "fecha_inscripcion": "2026-10-28T11:02:22.740",
+        "estado": "aceptada",
+        "pagada": false,
+        "observaciones": "Perdido industria salida mayores partir políticas movimiento problema."
+    }
+},
+{
+    "model": "torneos.inscripcion",
+    "pk": 6,
+    "fields": {
+        "torneo": 10,
+        "equipo": 3,
+        "fecha_inscripcion": "2026-10-28T11:02:22.747",
+        "estado": "aceptada",
+        "pagada": false,
+        "observaciones": "Toma salud cine cuatro total dejó sueño libertad."
+    }
+},
+{
+    "model": "torneos.inscripcion",
+    "pk": 7,
+    "fields": {
+        "torneo": 4,
+        "equipo": 9,
+        "fecha_inscripcion": "2026-10-28T11:02:22.780",
+        "estado": "aceptada",
+        "pagada": true,
+        "observaciones": "Policía junio región cosas español zonas."
+    }
+},
+{
+    "model": "torneos.inscripcion",
+    "pk": 8,
+    "fields": {
+        "torneo": 4,
+        "equipo": 3,
+        "fecha_inscripcion": "2026-10-28T11:02:22.786",
+        "estado": "aceptada",
+        "pagada": true,
+        "observaciones": "Santa problemas imposible ella día alguna."
+    }
+},
+{
+    "model": "torneos.inscripcion",
+    "pk": 9,
+    "fields": {
+        "torneo": 6,
+        "equipo": 2,
+        "fecha_inscripcion": "2026-10-28T11:02:22.816",
+        "estado": "aceptada",
+        "pagada": false,
+        "observaciones": "Partir pesetas con encontrar francia director."
+    }
+},
+{
+    "model": "torneos.inscripcion",
+    "pk": 10,
+    "fields": {
+        "torneo": 6,
+        "equipo": 7,
+        "fecha_inscripcion": "2026-10-28T11:02:22.830",
+        "estado": "aceptada",
+        "pagada": false,
+        "observaciones": "Septiembre carta plazo."
+    }
+},
+{
+    "model": "torneos.partido",
+    "pk": 1,
+    "fields": {
+        "torneo": 1,
+        "equipo_local": 4,
+        "equipo_visitante": 10,
+        "fecha_hora": "2026-10-15T12:55:42.728",
+        "jornada": 1,
+        "estado": "jugado",
+        "notas": "Propuesta hubiera cual tipos cuyo."
+    }
+},
+{
+    "model": "torneos.partido",
+    "pk": 2,
+    "fields": {
+        "torneo": 1,
+        "equipo_local": 10,
+        "equipo_visitante": 4,
+        "fecha_hora": "2026-11-24T19:46:14.978",
+        "jornada": 2,
+        "estado": "jugado",
+        "notas": "García ocasiones principal cuarto."
+    }
+},
+{
+    "model": "torneos.partido",
+    "pk": 3,
+    "fields": {
+        "torneo": 8,
+        "equipo_local": 10,
+        "equipo_visitante": 1,
+        "fecha_hora": "2026-10-20T11:48:38.878",
+        "jornada": 1,
+        "estado": "jugado",
+        "notas": "Valores ésta volver supuesto."
+    }
+},
+{
+    "model": "torneos.partido",
+    "pk": 4,
+    "fields": {
+        "torneo": 8,
+        "equipo_local": 1,
+        "equipo_visitante": 10,
+        "fecha_hora": "2026-10-31T04:01:45.079",
+        "jornada": 2,
+        "estado": "jugado",
+        "notas": "Comunicación llegado persona."
+    }
+},
+{
+    "model": "torneos.partido",
+    "pk": 5,
+    "fields": {
+        "torneo": 10,
+        "equipo_local": 7,
+        "equipo_visitante": 3,
+        "fecha_hora": "2026-10-14T03:53:34.532",
+        "jornada": 1,
+        "estado": "jugado",
+        "notas": "Programa hasta respecto unidad instituciones quería."
+    }
+},
+{
+    "model": "torneos.partido",
+    "pk": 6,
+    "fields": {
+        "torneo": 10,
+        "equipo_local": 3,
+        "equipo_visitante": 7,
+        "fecha_hora": "2026-11-24T02:28:46.791",
+        "jornada": 2,
+        "estado": "jugado",
+        "notas": "Pensar estaba palabras sus humana misma."
+    }
+},
+{
+    "model": "torneos.partido",
+    "pk": 7,
+    "fields": {
+        "torneo": 4,
+        "equipo_local": 9,
+        "equipo_visitante": 3,
+        "fecha_hora": "2026-10-12T14:11:54.577",
+        "jornada": 1,
+        "estado": "jugado",
+        "notas": "Metros este manuel mayoría hicieron presidente."
+    }
+},
+{
+    "model": "torneos.partido",
+    "pk": 8,
+    "fields": {
+        "torneo": 4,
+        "equipo_local": 3,
+        "equipo_visitante": 9,
+        "fecha_hora": "2026-10-25T19:56:36.493",
+        "jornada": 2,
+        "estado": "jugado",
+        "notas": "Humano pues juicio."
+    }
+},
+{
+    "model": "torneos.partido",
+    "pk": 9,
+    "fields": {
+        "torneo": 6,
+        "equipo_local": 2,
+        "equipo_visitante": 7,
+        "fecha_hora": "2026-10-19T18:03:44.455",
+        "jornada": 1,
+        "estado": "jugado",
+        "notas": "Tiempo teatro dejar seguir has país tanto."
+    }
+},
+{
+    "model": "torneos.partido",
+    "pk": 10,
+    "fields": {
+        "torneo": 6,
+        "equipo_local": 7,
+        "equipo_visitante": 2,
+        "fecha_hora": "2026-10-13T19:39:49.646",
+        "jornada": 2,
+        "estado": "jugado",
+        "notas": "Distintos entrada corte revolución."
+    }
+},
+{
+    "model": "torneos.resultado",
+    "pk": 1,
+    "fields": {
+        "partido": 1,
+        "puntos_local": 2,
+        "puntos_visitante": 1,
+        "validado": true,
+        "comentarios": "Zona vivir pudo compañía mucho precio podría pasa."
+    }
+},
+{
+    "model": "torneos.resultado",
+    "pk": 2,
+    "fields": {
+        "partido": 2,
+        "puntos_local": 5,
+        "puntos_visitante": 3,
+        "validado": false,
+        "comentarios": "Puerta volver santa otros consejo fecha."
+    }
+},
+{
+    "model": "torneos.resultado",
+    "pk": 3,
+    "fields": {
+        "partido": 3,
+        "puntos_local": 2,
+        "puntos_visitante": 2,
+        "validado": false,
+        "comentarios": "Iba quiero posible fuerzas."
+    }
+},
+{
+    "model": "torneos.resultado",
+    "pk": 4,
+    "fields": {
+        "partido": 4,
+        "puntos_local": 1,
+        "puntos_visitante": 1,
+        "validado": false,
+        "comentarios": "Aquella suelo largo sino."
+    }
+},
+{
+    "model": "torneos.resultado",
+    "pk": 5,
+    "fields": {
+        "partido": 5,
+        "puntos_local": 3,
+        "puntos_visitante": 3,
+        "validado": true,
+        "comentarios": "Razón presenta tiene algunos."
+    }
+},
+{
+    "model": "torneos.resultado",
+    "pk": 6,
+    "fields": {
+        "partido": 6,
+        "puntos_local": 3,
+        "puntos_visitante": 3,
+        "validado": true,
+        "comentarios": "Sino buena ellas características recursos ello."
+    }
+},
+{
+    "model": "torneos.resultado",
+    "pk": 7,
+    "fields": {
+        "partido": 7,
+        "puntos_local": 5,
+        "puntos_visitante": 1,
+        "validado": false,
+        "comentarios": "Sola atrás ejemplo trata actitud técnica."
+    }
+},
+{
+    "model": "torneos.resultado",
+    "pk": 8,
+    "fields": {
+        "partido": 8,
+        "puntos_local": 5,
+        "puntos_visitante": 0,
+        "validado": true,
+        "comentarios": "Información importante podría."
+    }
+},
+{
+    "model": "torneos.resultado",
+    "pk": 9,
+    "fields": {
+        "partido": 9,
+        "puntos_local": 4,
+        "puntos_visitante": 2,
+        "validado": true,
+        "comentarios": "Trabajar armas alrededor otro aumento varios tipos buena."
+    }
+},
+{
+    "model": "torneos.resultado",
+    "pk": 10,
+    "fields": {
+        "partido": 10,
+        "puntos_local": 5,
+        "puntos_visitante": 2,
+        "validado": false,
+        "comentarios": "Habla mañana miedo tanto."
+    }
+}
+]
