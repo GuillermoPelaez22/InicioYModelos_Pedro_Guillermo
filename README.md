@@ -11,8 +11,8 @@ El rol depende del torneo: quien lo crea es su administrador y los inscritos son
 ## Cómo ejecutarlo
 
 ```bash
-git clone https://github.com/TU_USUARIO/torneohub.git
-cd torneohub
+git clone https://github.com/GuillermoPelaez22/InicioYModelos_Pedro_Guillermo.git
+cd InicioYModelos_Pedro_Guillermo
 python3 -m venv venv
 source venv/bin/activate        # En Windows: venv\Scripts\activate
 pip install -r requirements.txt
@@ -350,5 +350,30 @@ python manage.py loaddata torneos/fixtures/datos.json
 | `NIVELES = [('aficionado', 'Aficionado'), ...]` | Lista de tuplas para `choices`. El primer valor es el que se guarda en la base de datos y el segundo el que se muestra al usuario |
 | `f"Perfil de {self.usuario.nombre}"` | Cadena con formato (f-string): lo que va entre llaves se sustituye por el valor de la variable |
 | `admin.site.register([...])` | Registra varios modelos de una vez en el panel de administración pasando una lista |
-
-(Añadir aquí el código de `generar_datos.py` que no se haya visto en clase, por ejemplo los métodos de Faker que se usen.)
+| `BaseCommand` y `handle()` | Clase de Django para crear comandos propios. El código del comando va dentro del método `handle`, que se ejecuta con `python manage.py generar_datos` |
+| `help = '...'` | Texto de ayuda del comando |
+| `Faker('es_ES')` | Crea el generador de datos falsos con nombres, ciudades y direcciones de España |
+| `fake.unique.email()` | `unique` garantiza que Faker no repite el valor generado (necesario con campos `unique`) |
+| `fake.name()`, `fake.city()`, `fake.last_name()` | Generan un nombre completo, una ciudad y un apellido |
+| `fake.paragraph(nb_sentences=2)`, `fake.sentence()` | Generan un párrafo con 2 frases y una frase suelta |
+| `fake.address()` | Genera una dirección; `.replace('\n', ', ')` cambia los saltos de línea por comas |
+| `fake.latitude()` | Genera una latitud; `float(...)` la convierte a número decimal |
+| `fake.date_of_birth(minimum_age, maximum_age)` | Fecha de nacimiento de alguien con una edad entre esos límites |
+| `fake.date_between(start_date, end_date)` | Fecha aleatoria entre dos fechas (`'-5y'` = hace 5 años, `'+6M'` = dentro de 6 meses) |
+| `fake.date_time_between(...)` | Igual, pero con fecha y hora |
+| `fake.time_object()` | Hora aleatoria |
+| `fake.numerify('6########')` | Sustituye cada `#` por un dígito aleatorio (un teléfono que empieza por 6) |
+| `fake.bothify(text='??####', letters=...)` | Sustituye `?` por una letra de la lista y `#` por un dígito |
+| `fake.color_name()` | Nombre de un color |
+| `random.choice(lista)` | Elige un elemento al azar de una lista |
+| `random.randint(a, b)` | Entero aleatorio entre a y b, ambos incluidos |
+| `random.uniform(a, b)` | Decimal aleatorio entre a y b |
+| `random.sample(lista, n)` | Elige n elementos distintos de una lista |
+| `round(numero, 1)` | Redondea a 1 decimal |
+| `Modelo.objects.create(...)` | Crea y guarda un registro en la base de datos |
+| `get_or_create(nombre=..., defaults={...})` | Busca el registro; si no existe, lo crea con los valores de `defaults` |
+| `.set([...])` | Asigna a una relación ManyToMany la lista de objetos relacionados |
+| `enumerate(lista, start=1)` | Recorre la lista dando también un contador que empieza en 1 |
+| `self.stdout.write(self.style.SUCCESS('...'))` | Muestra un mensaje en verde en la terminal |
+| `python manage.py dumpdata torneos --indent 4 > ...` | Exporta los datos de la app a un archivo JSON con sangría de 4 espacios |
+| `python manage.py loaddata ...` | Carga en la base de datos los datos de un fixture |
