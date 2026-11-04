@@ -33,7 +33,7 @@ python manage.py runserver
 
 ## Esquema entidad-relación
 
-![Esquema entidad-relación de TorneoHub](docs/er.png)
+![Esquema entidad-relación de TorneoHub](docs/modelo_er.png)
 
 ### Resumen de relaciones
 
